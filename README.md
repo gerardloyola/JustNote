@@ -1,38 +1,24 @@
-# JustNote
+# Songwritify
+### A safe place for your music projects.
 
-[JustNote Live!](https://just-note.herokuapp.com) 
+Songwritify is a simple and safe web app for Artists available on most platforms, including Web, Mac, Windows, Linux, iOS, and Android. It focuses on simplicity.
 
-JustNote is a single-page clone of [Evernote](https://evernote.com/), a web application used to create and edit rich text formatted notes to help you stay on top of all the many parts of your life!
-
-## Home Page
 ![homePage](app/assets/images/home_page.png)
 
+### Why Songwritify?
 
-# Key Features
-## User Authentication
-
-Users can easily and securely log in or sign up to access their account.
+- Simple and easy to use
+- Secure log in or sign up
+- Free sync on unlimited devices
+- Organize all your notes
+- Markdown built-in to style your text
+- Every change is tracked
+- Automatically saves, without having to press any button
+- Find your notes with our modern search
+- Multiple tags on notes
+- Open Source
 
 <img src="https://github.com/tseleski/JustNote/blob/master/app/assets/images/sign_up.png" width="60%">
-
-## Notes
-
-Users can organize their thoughts into notes that they can create, edit, and delete. They can format their text using rich text formatting.
-
-### Auto-save
-
-As users edit a note, the note automatically saves, without the user having to press any button. Every change is tracked, making for easy and simple use.
-
-## Notebooks
-
-Users can organize their notes into notebooks. Notebooks can be created, renamed, and deleted. Users can filter notes based on a notebook.
-
-
-## Tags
-
-Users can place multiple tags on notes. They can remove tags from individual notes, or delete a tag from all their notes. They can filter notes based on a tag.
-
-![tags](app/assets/images/tags.png)
 
 > To make dropdown menus (like the "remove tag" one above) disappear on a click outside of the component, I used the following code:
 
@@ -66,14 +52,6 @@ togglePopup(e) {
   }
 
   ```
-
-## Search
-
-Depending which page a user is currently on, a user can search the notes they are looking at. For example, if the user is currently looking at all the notes in a particular notebook, they can type into the search bar, that searches on each key stroke, to filter their notes.
-
-## Easy UI
-
-React and Redux create a simple and intuitive user interface. Users can easily navigate to where they want to go.
 
 ## Technologies Used
 
